@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stmball_python_package_template"
+version = "0.0.1"
+authors = [
+  { name="Samuel Ball", email="stmball@gmail.com" },
+]
+description = "A template for my Python projects"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
